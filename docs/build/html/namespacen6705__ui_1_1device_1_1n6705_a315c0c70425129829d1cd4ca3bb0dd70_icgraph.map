@@ -1,0 +1,19 @@
+<map id="n6705_ui.device.n6705._parse_single_float" name="n6705_ui.device.n6705._parse_single_float">
+<area shape="rect" id="Node000001" title=" " alt="" coords="276,287,434,329"/>
+<area shape="rect" id="Node000002" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a6f2c62db341f1e08fc98f83c5500a75c" title=" " alt="" coords="5,5,228,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="342,271,327,225,303,168,270,111,249,85,226,62,211,51,210,46,229,58,253,81,274,108,308,165,332,223,347,272"/>
+<area shape="rect" id="Node000003" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a7ecad1bbc8641917dd6274b9e90030dc" title=" " alt="" coords="18,72,215,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="332,273,289,209,260,175,226,145,210,134,209,128,229,141,263,171,293,206,337,273"/>
+<area shape="rect" id="Node000004" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a9b388ae980d52c751e2815a9b5305a95" title=" " alt="" coords="18,155,215,213"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="309,278,270,253,226,228,204,217,202,211,229,223,273,248,314,277"/>
+<area shape="rect" id="Node000005" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a601ac2311d0baa16a86f24cd0631e410" title=" " alt="" coords="18,237,215,296"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="258,293,216,286,214,281,262,290"/>
+<area shape="rect" id="Node000006" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#ad12286a5465c73bae6790588f1442461" title=" " alt="" coords="18,320,215,379"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="258,326,216,335,214,330,262,323"/>
+<area shape="rect" id="Node000007" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a6e2ded2b2e96929be15e99199f2f6764" title=" " alt="" coords="18,403,215,461"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="310,341,273,368,229,393,205,404,202,400,226,388,270,363,314,337"/>
+<area shape="rect" id="Node000008" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a7b28e5398c1a1781b5e0f71324f63d0f" title=" " alt="" coords="18,485,215,544"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="337,341,293,410,263,445,229,475,211,487,208,483,226,471,260,441,289,407,333,345"/>
+<area shape="rect" id="Node000009" href="$classn6705__ui_1_1device_1_1n6705_1_1N6705PowerAnalyzer.html#a796574369e32d851d2c4f9e94093cafb" title=" " alt="" coords="5,568,228,611"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="346,342,332,393,308,451,274,508,253,535,229,558,212,570,210,565,226,554,249,531,270,505,303,448,327,391,343,346"/>
+</map>

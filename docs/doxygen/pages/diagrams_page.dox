@@ -1,0 +1,45 @@
+﻿/**
+ * @page diagrams_page UML and System Diagrams
+ *
+ * @include docs/doxygen/diagrams.md
+ *
+ * @section doxygen_rendered_diagrams Doxygen-Rendered Diagrams
+ *
+ * @subsection dox_component Architecture Component Diagram
+ * @dot
+ * digraph component_view {
+ *   rankdir=LR;
+ *   node [shape=box, style=rounded];
+ *   UI [label="QML UI\n(Main + Views + Components)"];
+ *   VM [label="ViewModels\n(Dashboard/Channel)"];
+ *   DEV [label="Device Adapter\n(N6705PowerAnalyzer)"];
+ *   SCPI [label="SCPI Transport\n(ScpiTcpClient)"];
+ *   LOG [label="CSV Logger"];
+ *   HIST [label="Historical Loader"];
+ *   JSON [label="session.json", shape=cylinder];
+ *   CSV [label="CSV Files", shape=cylinder];
+ *   PSU [label="Keysight N6705", shape=box3d];
+ *   UI -> VM; VM -> DEV; DEV -> SCPI; SCPI -> PSU;
+ *   VM -> LOG; LOG -> CSV; VM -> HIST; HIST -> CSV; VM -> JSON;
+ * }
+ * @enddot
+ *
+ * @subsection dox_class Core Class Diagram
+ * @dot
+ * digraph class_diagram {
+ *   rankdir=LR;
+ *   node [shape=record, fontsize=10];
+ *   ScpiTcpClient [label="{ScpiTcpClient|+connect()\l+disconnect()\l+write()\l+query()\l}"];
+ *   N6705PowerAnalyzer [label="{N6705PowerAnalyzer|+identify()\l+measure_channels()\l+set_voltage()\l+set_current()\l+set_output()\l}"];
+ *   DashboardViewModel [label="{DashboardViewModel|+connectDevice()\l+startMonitoring()\l+startLogging()\l+loadLogFiles()\l}"];
+ *   ChannelViewModel [label="{ChannelViewModel|+update_setpoints()\l+update_measurement()\l+update_totals()\l}"];
+ *   ConsumptionLogger [label="{ConsumptionLogger|+start()\l+register()\l+stop()\l}"];
+ *   LogPlotLoader [label="{LogPlotLoader|+load_csv_files()\l}"];
+ *   DashboardViewModel -> N6705PowerAnalyzer;
+ *   N6705PowerAnalyzer -> ScpiTcpClient;
+ *   DashboardViewModel -> ChannelViewModel;
+ *   DashboardViewModel -> ConsumptionLogger;
+ *   DashboardViewModel -> LogPlotLoader;
+ * }
+ * @enddot
+ */

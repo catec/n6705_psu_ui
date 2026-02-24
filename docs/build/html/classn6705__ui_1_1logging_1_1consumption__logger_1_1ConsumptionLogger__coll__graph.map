@@ -1,0 +1,9 @@
+<map id="n6705_ui.logging.consumption_logger.ConsumptionLogger" name="n6705_ui.logging.consumption_logger.ConsumptionLogger">
+<area shape="rect" id="Node000001" title=" " alt="" coords="98,147,284,461"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,132,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,72,114,131,108,132,84,77"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="156,5,227,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,72,194,130,189,129,191,77"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="253,5,284,75"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="260,72,245,131,240,129,258,77"/>
+</map>

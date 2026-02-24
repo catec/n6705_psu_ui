@@ -1,0 +1,4 @@
+var namespacen6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm =
+[
+    [ "DashboardViewModel", "classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html", "classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel" ]
+];

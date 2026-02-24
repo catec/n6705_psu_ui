@@ -1,0 +1,9 @@
+<map id="n6705_ui.logging.consumption_logger._AccumulatorState" name="n6705_ui.logging.consumption_logger._AccumulatorState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,309,196,395"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,168,66,237"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,235,41,261,48,284,53,295,48,296,43,286,35,262,35,240"/>
+<area shape="rect" id="Node000003" href="$classn6705__ui_1_1models_1_1ChannelTotals.html" title=" " alt="" coords="90,168,286,237"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,235,153,287,146,297,142,293,148,284,172,239"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="170,5,206,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="189,72,190,152,185,150,187,77"/>
+</map>

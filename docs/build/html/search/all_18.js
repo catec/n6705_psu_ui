@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['path_0',['path',['../classn6705__ui_1_1logging_1_1consumption__logger_1_1ConsumptionLogger.html#a405173e7707b15bf937f012566435808',1,'n6705_ui::logging::consumption_logger::ConsumptionLogger']]],
+  ['persistence_1',['11. Session Persistence',['../md_USER__GUIDE.html#autotoc_md48',1,'']]],
+  ['plantuml_20source_20files_2',['PlantUML Source Files',['../md_docs_2doxygen_2diagrams.html#autotoc_md65',1,'']]],
+  ['plot_3',['9. Historical Analysis (Log Plot)',['../md_USER__GUIDE.html#autotoc_md46',1,'']]],
+  ['plot_20appears_20empty_4',['12.4 Historical Plot Appears Empty',['../md_USER__GUIDE.html#autotoc_md53',1,'']]],
+  ['plugin_20loading_20problems_5',['12.5 Windows Plugin Loading Problems',['../md_USER__GUIDE.html#autotoc_md54',1,'']]],
+  ['points_6',['8. Extension Points',['../md_ARCHITECTURE.html#autotoc_md27',1,'']]],
+  ['pollfrequency_7',['pollFrequency',['../classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#a2d14d7deda5384edda80fa9efe3b0f87',1,'n6705_ui::presentation::viewmodels::dashboard_vm::DashboardViewModel']]],
+  ['polling_20tuning_8',['10. Polling Tuning',['../md_USER__GUIDE.html#autotoc_md47',1,'']]],
+  ['pollingerror_9',['pollingError',['../classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#a54a99ef1812429a44f18defb228c7dda',1,'n6705_ui::presentation::viewmodels::dashboard_vm::DashboardViewModel']]],
+  ['pollingselected_10',['pollingSelected',['../classn6705__ui_1_1presentation_1_1viewmodels_1_1channel__vm_1_1ChannelViewModel.html#addae96e1b0438930a5f73a069b0ea673',1,'n6705_ui.presentation.viewmodels.channel_vm.ChannelViewModel.pollingSelected(self)'],['../classn6705__ui_1_1presentation_1_1viewmodels_1_1channel__vm_1_1ChannelViewModel.html#a331c6bf4a6a5d9cd13237f426958dfc0',1,'n6705_ui.presentation.viewmodels.channel_vm.ChannelViewModel.pollingSelected(self, bool value)']]],
+  ['pollingselectedchanged_11',['pollingSelectedChanged',['../classn6705__ui_1_1presentation_1_1viewmodels_1_1channel__vm_1_1ChannelViewModel.html#a5f3d3c9355f45e0a2934757a33557946',1,'n6705_ui::presentation::viewmodels::channel_vm::ChannelViewModel']]],
+  ['pollinterval_12',['pollInterval',['../classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#abbf6e33e18d038f37409b0b3ece3ad6e',1,'n6705_ui::presentation::viewmodels::dashboard_vm::DashboardViewModel']]],
+  ['port_13',['port',['../classtest__scpi__client__integration_1_1ScpiClientIntegrationTests.html#ac9f4cc1144b61cf27651044edc43e52a',1,'test_scpi_client_integration.ScpiClientIntegrationTests.port'],['../classn6705__ui_1_1communication_1_1scpi__client_1_1ScpiTcpClient.html#ad5346fd416c3b2bf06a131102fef56d8',1,'n6705_ui.communication.scpi_client.ScpiTcpClient.port()']]],
+  ['power_20console_14',['Power Console',['../md_ARCHITECTURE.html',1,'Architecture Reference - N6705 Power Console'],['../md_README.html',1,'N6705 Power Console'],['../md_USER__GUIDE.html',1,'User Guide - N6705 Power Console']]],
+  ['power_20console_20documentation_15',['N6705 Power Console Documentation',['../index.html',1,'']]],
+  ['powerseriesmodel_16',['powerSeriesModel',['../classn6705__ui_1_1presentation_1_1viewmodels_1_1channel__vm_1_1ChannelViewModel.html#a9601877b3d2888292411ecc4a4eac31f',1,'n6705_ui::presentation::viewmodels::channel_vm::ChannelViewModel']]],
+  ['prerequisites_17',['Prerequisites',['../md_README.html#autotoc_md10',1,'']]],
+  ['presentation_20layer_18',['2.4 Presentation Layer',['../md_ARCHITECTURE.html#autotoc_md21',1,'']]],
+  ['presentation_2f_5f_5finit_5f_5f_2epy_19',['__init__.py',['../presentation_2____init_____8py.html',1,'']]],
+  ['presentation_2fmodels_2f_5f_5finit_5f_5f_2epy_20',['__init__.py',['../presentation_2models_2____init_____8py.html',1,'']]],
+  ['presentation_2fviewmodels_2f_5f_5finit_5f_5f_2epy_21',['__init__.py',['../presentation_2viewmodels_2____init_____8py.html',1,'']]],
+  ['problems_22',['12.5 Windows Plugin Loading Problems',['../md_USER__GUIDE.html#autotoc_md54',1,'']]],
+  ['purpose_23',['1. Purpose',['../md_USER__GUIDE.html#autotoc_md30',1,'']]],
+  ['push_5fcommand_24',['push_command',['../classtest__scpi__client__integration_1_1__ScpiMockServer.html#a558d87f91c87a0b60790deea11bd145a',1,'test_scpi_client_integration::_ScpiMockServer']]]
+];

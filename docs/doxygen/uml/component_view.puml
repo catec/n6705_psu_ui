@@ -1,0 +1,24 @@
+﻿@startuml
+skinparam componentStyle rectangle
+skinparam shadowing false
+
+component "QML UI\n(Main + Views + Components)" as UI
+component "ViewModels\n(Dashboard/Channel)" as VM
+component "Device Adapter\n(N6705PowerAnalyzer)" as DEV
+component "SCPI Transport\n(ScpiTcpClient)" as SCPI
+component "CSV Logger" as LOG
+component "Historical Loader" as HIST
+database "Session JSON" as JSON
+database "CSV Files" as CSV
+node "Keysight N6705" as PSU
+
+UI --> VM
+VM --> DEV
+DEV --> SCPI
+SCPI --> PSU
+VM --> LOG
+LOG --> CSV
+VM --> HIST
+HIST --> CSV
+VM --> JSON
+@enduml

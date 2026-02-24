@@ -1,0 +1,61 @@
+﻿@startuml
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+
+package "communication" {
+  class ScpiTcpClient {
+    +connect()
+    +disconnect()
+    +write(command)
+    +query(command)
+  }
+}
+
+package "device" {
+  class N6705PowerAnalyzer {
+    +identify()
+    +measure_channels(channels)
+    +set_voltage(channel, voltage)
+    +set_current(channel, current)
+    +set_output(channel, enabled)
+  }
+}
+
+package "presentation.viewmodels" {
+  class DashboardViewModel {
+    +connectDevice()
+    +startMonitoring()
+    +startLogging()
+    +loadLogFiles()
+  }
+
+  class ChannelViewModel {
+    +update_setpoints()
+    +update_measurement()
+    +update_totals()
+  }
+}
+
+package "services" {
+  class ConsumptionLogger {
+    +start(path)
+    +register(sample)
+    +stop()
+  }
+
+  class LogPlotLoader {
+    +load_csv_files(paths)
+  }
+}
+
+class ChannelMeasurement
+class ChannelTotals
+
+DashboardViewModel o--> N6705PowerAnalyzer
+N6705PowerAnalyzer o--> ScpiTcpClient
+DashboardViewModel o--> ChannelViewModel
+DashboardViewModel o--> ConsumptionLogger
+DashboardViewModel o--> LogPlotLoader
+ConsumptionLogger ..> ChannelMeasurement
+ConsumptionLogger ..> ChannelTotals
+@enduml

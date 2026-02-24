@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classQObject.html" title=" " alt="" coords="5,47,75,73"/>
+<area shape="rect" id="Node000001" href="$classn6705__ui_1_1presentation_1_1viewmodels_1_1channel__vm_1_1ChannelViewModel.html" title=" " alt="" coords="130,5,400,48"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="89,50,132,45,128,48,91,55"/>
+<area shape="rect" id="Node000002" href="$classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html" title=" " alt="" coords="123,72,408,115"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="90,65,125,71,120,73,90,70"/>
+</map>

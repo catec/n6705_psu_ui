@@ -1,0 +1,11 @@
+<map id="n6705_ui.presentation.viewmodels.dashboard_vm.DashboardViewModel.connectDevice" name="n6705_ui.presentation.viewmodels.dashboard_vm.DashboardViewModel.connectDevice">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,291,115"/>
+<area shape="rect" id="Node000002" href="$classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#ae6f7043e1856d40bdaf98e44c6ad0083" title=" " alt="" coords="351,5,636,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,69,367,51,362,52,263,74"/>
+<area shape="rect" id="Node000003" href="$classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#a1ff396687d4077bed491fb30af949d1c" title=" " alt="" coords="351,72,636,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,91,338,93,333,94,291,96"/>
+<area shape="rect" id="Node000004" href="$classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#a57b540b6afb0f4d758eb8ff5dd25217f" title=" " alt="" coords="339,139,649,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,113,367,135,362,136,262,118"/>
+<area shape="rect" id="Node000005" href="$classn6705__ui_1_1presentation_1_1viewmodels_1_1dashboard__vm_1_1DashboardViewModel.html#a7d593e2be84986fe56fd24c02d4d7165" title=" " alt="" coords="697,139,1007,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="650,157,684,160,679,160,650,163"/>
+</map>

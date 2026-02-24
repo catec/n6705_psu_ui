@@ -1,0 +1,100 @@
+﻿# Doxyfile 1.10.0
+
+PROJECT_NAME           = "N6705 Power Console"
+PROJECT_BRIEF          = "Cross-platform Qt/QML + Python desktop console for Keysight N6705"
+PROJECT_NUMBER         = "1.0.0"
+OUTPUT_DIRECTORY       = docs\build
+CREATE_SUBDIRS         = NO
+ALLOW_UNICODE_NAMES    = YES
+OUTPUT_LANGUAGE        = English
+
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = NO
+ALWAYS_DETAILED_SEC    = YES
+INLINE_INHERITED_MEMB  = YES
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = .
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
+MARKDOWN_SUPPORT       = YES
+TOC_INCLUDE_HEADINGS   = 3
+AUTOLINK_SUPPORT       = YES
+BUILTIN_STL_SUPPORT    = YES
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+EXTRACT_ANON_NSPACES   = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_UNDOC_RELATIONS   = NO
+
+INTERNAL_DOCS          = NO
+CASE_SENSE_NAMES       = YES
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_NO_PARAMDOC       = NO
+WARN_AS_ERROR          = NO
+
+INPUT                  = README.md \
+                         ARCHITECTURE.md \
+                         USER_GUIDE.md \
+                         docs\doxygen \
+                         n6705_ui \
+                         tests \
+                         app.py
+FILE_PATTERNS          = *.py *.qml *.md *.dox
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */__pycache__/* */.venv/* docs/build/*
+USE_MDFILE_AS_MAINPAGE = docs/doxygen/mainpage.md
+
+EXTENSION_MAPPING      = py=Python
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_FOR_FORTRAN   = NO
+OPTIMIZE_OUTPUT_VHDL   = NO
+OPTIMIZE_OUTPUT_SLICE  = NO
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_COLORSTYLE        = AUTO_LIGHT
+HTML_DYNAMIC_MENUS     = YES
+HTML_INDEX_NUM_ENTRIES = 120
+
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_DOCSET        = NO
+
+CLASS_DIAGRAMS         = YES
+HIDE_UNDOC_RELATIONS   = NO
+HAVE_DOT               = YES
+DOT_PATH               = "C:/Program Files/Graphviz/bin"
+DOT_NUM_THREADS        = 2
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+UML_LOOK               = YES
+UML_LIMIT_NUM_FIELDS   = 60
+DOT_UML_DETAILS        = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+GRAPHICAL_HIERARCHY    = YES
+DIRECTORY_GRAPH        = YES
+DOT_GRAPH_MAX_NODES    = 80
+MAX_DOT_GRAPH_DEPTH    = 2
+
+PLANTUML_JAR_PATH      =
+PLANTUML_CFG_FILE      =
+DOT_CLEANUP            = YES
+
+ALIASES               += "signature=Author: Mouhsine Kassimi Farhaoui <mouhsine98@gmail.com>"

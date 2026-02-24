@@ -1,0 +1,9 @@
+<map id="n6705_ui.device.n6705.N6705PowerAnalyzer.measure_channels" name="n6705_ui.device.n6705.N6705PowerAnalyzer.measure_channels">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,228,115"/>
+<area shape="rect" id="Node000002" href="$namespacen6705__ui_1_1device_1_1n6705.html#a8cb6118ef8497eea05f60f6a23a26393" title=" " alt="" coords="276,5,434,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,69,264,52,259,54,196,74"/>
+<area shape="rect" id="Node000003" href="$namespacen6705__ui_1_1device_1_1n6705.html#a665fb77678a9bc3564c995cb4d3da262" title=" " alt="" coords="276,72,434,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,91,263,93,257,94,228,96"/>
+<area shape="rect" id="Node000004" href="$namespacen6705__ui_1_1device_1_1n6705.html#a315c0c70425129829d1cd4ca3bb0dd70" title=" " alt="" coords="276,139,434,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="195,113,264,134,259,134,195,118"/>
+</map>

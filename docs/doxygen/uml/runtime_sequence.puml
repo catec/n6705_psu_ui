@@ -1,0 +1,32 @@
+﻿@startuml
+skinparam shadowing false
+
+actor User
+participant "Main.qml" as QML
+participant DashboardViewModel as VM
+participant N6705PowerAnalyzer as Driver
+participant ScpiTcpClient as TCP
+participant ConsumptionLogger as Logger
+
+User -> QML: Connect + Run
+QML -> VM: connectDevice(host, port, timeout)
+VM -> Driver: connect()
+Driver -> TCP: connect()
+Driver -> TCP: query("*IDN?")
+TCP --> Driver: IDN
+Driver --> VM: connected state
+VM --> QML: connectionChanged
+
+loop polling interval
+  VM -> Driver: measure_channels(selected)
+  Driver -> TCP: query("MEAS:VOLT? ...")
+  Driver -> TCP: query("MEAS:CURR? ...")
+  TCP --> Driver: values
+  Driver --> VM: samples
+  VM --> QML: telemetryChanged
+  alt logging active
+    VM -> Logger: register(sample)
+    Logger --> VM: totals
+  end
+end
+@enduml

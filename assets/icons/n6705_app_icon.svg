@@ -1,0 +1,93 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="64" x2="928" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2238"/>
+      <stop offset="1" stop-color="#071220"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="160" y1="140" x2="860" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F314F"/>
+      <stop offset="1" stop-color="#0A1F34"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="240" y1="220" x2="780" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07243D"/>
+      <stop offset="1" stop-color="#031A2D"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="270" y1="620" x2="760" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#49E6FF"/>
+      <stop offset="1" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="470" y1="460" x2="590" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE67A"/>
+      <stop offset="1" stop-color="#F7B500"/>
+    </linearGradient>
+    <filter id="soft" x="100" y="90" width="824" height="840" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="64" y="64" width="896" height="896" rx="212" fill="url(#bg)"/>
+  <rect x="84" y="84" width="856" height="856" rx="192" stroke="#74EFFF" stroke-opacity="0.24" stroke-width="3"/>
+
+  <g filter="url(#soft)">
+    <rect x="156" y="138" width="712" height="748" rx="120" fill="url(#panel)"/>
+    <rect x="156" y="138" width="712" height="748" rx="120" stroke="#7BEFFF" stroke-opacity="0.30" stroke-width="8"/>
+
+    <rect x="212" y="196" width="600" height="88" rx="28" fill="#0A2D49"/>
+    <circle cx="248" cy="240" r="20" fill="#1A5B86"/>
+    <circle cx="248" cy="240" r="10" fill="#4EEAFF"/>
+    <rect x="282" y="222" width="118" height="36" rx="10" fill="#0E3C60"/>
+    <rect x="412" y="222" width="360" height="36" rx="10" fill="#082A45"/>
+    <text x="430" y="247" fill="#AEEFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">N6705 POWER ANALYZER</text>
+
+    <rect x="212" y="306" width="600" height="210" rx="36" fill="url(#screen)"/>
+    <rect x="212" y="306" width="600" height="210" rx="36" stroke="#6DEBFF" stroke-opacity="0.18" stroke-width="3"/>
+
+    <g opacity="0.22">
+      <path d="M252 354H772" stroke="#76EDFF" stroke-width="2" stroke-dasharray="8 10"/>
+      <path d="M252 402H772" stroke="#76EDFF" stroke-width="2" stroke-dasharray="8 10"/>
+      <path d="M252 450H772" stroke="#76EDFF" stroke-width="2" stroke-dasharray="8 10"/>
+    </g>
+
+    <g>
+      <rect x="244" y="536" width="536" height="56" rx="18" fill="#0A2C47"/>
+
+      <g>
+        <circle cx="278" cy="564" r="12" fill="#D6D33A"/>
+        <rect x="296" y="552" width="106" height="24" rx="8" fill="#D6D33A" fill-opacity="0.86"/>
+      </g>
+      <g>
+        <circle cx="420" cy="564" r="12" fill="#46CC5A"/>
+        <rect x="438" y="552" width="106" height="24" rx="8" fill="#46CC5A" fill-opacity="0.86"/>
+      </g>
+      <g>
+        <circle cx="562" cy="564" r="12" fill="#39A8FF"/>
+        <rect x="580" y="552" width="106" height="24" rx="8" fill="#39A8FF" fill-opacity="0.86"/>
+      </g>
+      <g>
+        <circle cx="704" cy="564" r="12" fill="#D15AF0"/>
+        <rect x="722" y="552" width="42" height="24" rx="8" fill="#D15AF0" fill-opacity="0.86"/>
+      </g>
+    </g>
+
+    <rect x="244" y="618" width="536" height="210" rx="28" fill="#08233B"/>
+    <rect x="244" y="618" width="536" height="210" rx="28" stroke="#62E8FF" stroke-opacity="0.16" stroke-width="2"/>
+
+    <g opacity="0.2">
+      <path d="M270 670H754" stroke="#7AEFFF" stroke-width="2" stroke-dasharray="7 8"/>
+      <path d="M270 722H754" stroke="#7AEFFF" stroke-width="2" stroke-dasharray="7 8"/>
+      <path d="M270 774H754" stroke="#7AEFFF" stroke-width="2" stroke-dasharray="7 8"/>
+      <path d="M330 644V802" stroke="#7AEFFF" stroke-width="2" stroke-dasharray="7 8"/>
+      <path d="M512 644V802" stroke="#7AEFFF" stroke-width="2" stroke-dasharray="7 8"/>
+      <path d="M694 644V802" stroke="#7AEFFF" stroke-width="2" stroke-dasharray="7 8"/>
+    </g>
+
+    <path d="M274 754 L320 742 L366 706 L412 728 L458 676 L504 700 L550 654 L596 676 L642 646 L688 666 L734 648"
+          stroke="url(#wave)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M548 432L488 526H548L518 630L618 504H562L594 432H548Z" fill="url(#bolt)"/>
+  </g>
+</svg>

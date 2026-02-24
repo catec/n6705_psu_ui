@@ -1,0 +1,4 @@
+var namespacen6705__ui_1_1presentation_1_1models_1_1time__series__model =
+[
+    [ "TimeSeriesTableModel", "classn6705__ui_1_1presentation_1_1models_1_1time__series__model_1_1TimeSeriesTableModel.html", "classn6705__ui_1_1presentation_1_1models_1_1time__series__model_1_1TimeSeriesTableModel" ]
+];

@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,47,130,73"/>
+<area shape="rect" id="Node000001" href="$classtest__log__plot__loader_1_1LogPlotLoaderTests.html" title=" " alt="" coords="188,5,350,48"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="144,45,190,39,185,41,146,50"/>
+<area shape="rect" id="Node000002" href="$classtest__scpi__client__integration_1_1ScpiClientIntegrationTests.html" title=" " alt="" coords="178,72,361,115"/>
+<area shape="poly" id="edge7_Node000000_Node000002" title=" " alt="" coords="145,70,180,78,175,78,145,75"/>
+</map>
